@@ -1,0 +1,17 @@
+# Vivado-generated project data
+*.cache/
+*.gen/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+
+# Generated implementation and programming artifacts
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.mcs
+*.jou
+*.log
+*.str

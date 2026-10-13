@@ -1,0 +1,19 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-46,3",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 550 -y 230 -defaultsOSRD
+preplace inst booth8_optimized_0 -pg 1 -lvl 2 -x 550 -y 70 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 150 -y 70 -defaultsOSRD
+preplace netloc booth8_optimized_0_product 1 0 3 20 140 NJ 140 800
+preplace netloc vio_0_probe_out0 1 1 1 N 60
+preplace netloc vio_0_probe_out1 1 1 1 N 80
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 10 320 NJ 320 800
+levelinfo -pg 1 -20 150 550 830
+pagesize -pg 1 -db -bbox -sgen -20 0 830 330
+"
+}
+0
